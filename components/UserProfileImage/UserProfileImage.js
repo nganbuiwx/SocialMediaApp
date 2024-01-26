@@ -15,7 +15,7 @@ const UserProfileImage = props => {
   );
 };
 
-UserProfileImage.PropTypes = {
+UserProfileImage.propTypes = {
   profileImage: PropTypes.any.isRequired,
   imageDimensions: PropTypes.number.isRequired,
 };

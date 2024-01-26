@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 import {PropTypes} from 'prop-types';
 import style from './style';
 import UserProfileImage from '../UserProfileImage/UserProfileImage';
