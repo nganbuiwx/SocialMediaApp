@@ -63,7 +63,7 @@ export const ProfileTabsNavigation = () => {
             <ProfileTabTitle isFocused={focused} title={'Videos'} />
           ),
         }}
-        component={Tab2}
+        component={ProfileTabContent}
       />
       <ProfileTabs.Screen
         name={'Tab3'}
@@ -72,7 +72,7 @@ export const ProfileTabsNavigation = () => {
             <ProfileTabTitle isFocused={focused} title={'Saved'} />
           ),
         }}
-        component={Tab3}
+        component={ProfileTabContent}
       />
     </ProfileTabs.Navigator>
   );

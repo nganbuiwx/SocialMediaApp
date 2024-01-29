@@ -11,7 +11,7 @@ const ProfileTabTitle = props => {
   );
 };
 
-ProfileTabTitle.PropTypes = {
+ProfileTabTitle.propTypes = {
   title: PropTypes.string.isRequired,
   isFocused: PropTypes.bool.isRequired,
 };
