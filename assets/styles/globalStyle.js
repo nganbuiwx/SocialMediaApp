@@ -1,44 +1,15 @@
 import {StyleSheet} from 'react-native';
-import { getFontFamily } from '../fonts/helper';
 
-const globalStyle = StyleSheet.create({
-  header: {
-    marginLeft: 27,
-    marginRight: 17,
-    marginTop: 30,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+const globalStyles = StyleSheet.create({
+  backgroundWhile: {
+    backgroundColor: '#FFFFFF',
   },
-  messageIcon: {
-    padding: 14,
-    borderRadius: 100,
-    backgroundColor: '#F9FAFB',
+  flex: {
+    flex: 1,
   },
-  messageNumberContainer: {
-    backgroundColor: '#F35BAC',
-    justifyContent: 'center',
-    flexDirection: 'row',
-    width: 10,
-    height: 10,
-    right: 10,
-    top: 12,
-    borderRadius: 10,
-    alignItems: 'center',
-    position: 'absolute',
-  },
-  messageNumber: {
-    color: '#FFFFFF',
-    fontSize: 6,
-    fontFamily: getFontFamily('Inter', '600'),
-  },
-  userStoryContainer: {
-    marginTop: 20,
-    marginHorizontal: 28,
-  },
-  userPostContainer:{
-    marginHorizontal: 24,
-  },
+  flexGrow: {
+    flexGrow: 1,
+  },  
 });
 
-export default globalStyle;
+export default globalStyles;
